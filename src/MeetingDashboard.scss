@@ -1,0 +1,49 @@
+.dashboard-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 5% 5%;
+  min-height: 450px;
+  width:fit-content;
+  background-color: rgb(243, 237, 226);
+  .left-section{
+      display:flex;
+      flex-direction: column;
+  }
+  .card-section{
+    text-align: start;
+    border:1px solid black;
+    padding: 16px;
+    margin: 16px;
+    width:300px;
+    .item-value{
+      color:blue;
+      font-weight: normal;
+    }
+  }
+}
+.meetings-container {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 5%;
+  .meetings-section{
+    display:flex;
+    flex-wrap: wrap;
+    gap:8px;
+    .meet-item {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 300px;
+      background-color:#0093AF;
+      color: white;
+      padding:20px;
+      border-radius: 8px;
+      .para {
+        margin:4px
+      }
+    }
+  }
+}
